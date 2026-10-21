@@ -1,0 +1,16 @@
+# 依赖与运行产物
+node_modules/
+*.log
+
+# skills 安装器在本机的 agent 目录（各 IDE 各异，不入库）
+agent/
+.claude/
+skills-lock.json
+
+# 敏感信息：API Key 永不入库
+.env
+.env.*
+*.key
+
+# macOS
+.DS_Store
